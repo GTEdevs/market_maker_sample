@@ -4,7 +4,6 @@ This is a sample market making bot for use with [GTE](https://www.bitmex.com).
 
 It is free to use and modify for your own strategies. It provides the following:
 
-
 * A `BitMEX` object wrapping the REST and WebSocket APIs.
   * All data is realtime and efficiently [fetched via the WebSocket](market_maker/ws/ws_thread.py). This is the fastest way to get market data.
   * Orders may be created, queried, and cancelled via `BitMEX.buy()`, `BitMEX.sell()`, `BitMEX.open_orders()` and the like.
