@@ -2,7 +2,7 @@
 ## 简介  
 GTE 交易所(www.gte.io) 执行自动做市交易的程序样例。  
 It's a sample market making bot for use with [GTE](https://www.gte.io).
-由于Gte 的API和bitmex比较像，所以fork了这里(https://github.com/BitMEX/sample-market-maker)的代码，做了对应的修改。例如：  
+由于Gte 的API和bitmex比较像，所以fork了这里(https://github.com/BitMEX/sample-market-maker) 的代码，做了对应的修改。例如：  
   -  单个进程只交易一个标的；
   -  支持 GTE 的多交易区、多交易品类（合约、期货）；
   -  支持多、空双向同时持仓；
